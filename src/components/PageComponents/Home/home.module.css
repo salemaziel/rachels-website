@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'Quentin';
+    src: url('../../../fonts/Quentin.otf');
+    src: url('../../../fonts/Quentin.otf?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.Banner {
+    /*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
+    background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");*/
+    background-image: url('../../../images/field-of-flowers.jpg');
+    background-position:  center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat, no-repeat;
+    height: 100vh;
+}
+
+
+.SectionOne {
+    margin: 5% auto;
+    display: block;
+    position: relative;
+}
+
+.inner {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70em;
+  }
+
+  .Box {
+      display: block;
+      margin: auto;
+      padding: 1rem;
+      width: 100%;;
+  }
+
+  .Box img {
+      display: block;
+      margin: 0 0 2em 0;
+      width: 100%;
+  }
+
+  .Title {
+      display: flex;
+      text-align: left;
+      margin-left: 1em;
+      font-size: 2.5em;
+      font-weight: 600;
+  }
+
+  .Title header h1 {
+      text-align: left;
+      font-size: 2.5em;
+  }
+
+  .Quentin {
+      font-family: 'Quentin', sans-serif!important;
+  }
+
+  .Quentin h1 {
+      font-size: 2.5em;
+      text-align: justify;
+  }
+
+  header h1 {
+      font-size: 2.5em;
+      text-align: center;
+  }
+
+
+
+
+
+/**********************************************   min width: 2400px   *******************************************************/
+
+
+
+@media screen and (min-width: 2400px) {
+
+
+}
+
+
+/**********************************************   max width: 1680px   *******************************************************/
+
+
+
+@media screen and (max-width: 1680px) {
+
+}
+
+
+
+
+/**********************************************   max width: 1280px   *******************************************************/
+
+
+@media screen and (max-width: 1280px) {
+    .inner{
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    }
+    
+}
+
+
+
+
+/**********************************************   max width: 980px   *******************************************************/
+
+
+@media screen and (max-width: 980px) {
+    .inner{
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        }
+    
+}
+
+
+
+
+
+/**********************************************   max width: 767px   *******************************************************/
+
+@media screen and (max-width: 767px) {
+    .inner{
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        }
+}
+
+
+
+
+
+
+/**********************************************   max width: 480px   *******************************************************/
+
+
+@media screen and (max-width: 480px) {
+
+    .Banner {
+        /*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
+        background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
+        background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
+        background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");*/
+        background-image: url('../../../images/field-of-flowers.jpg');
+        background-position: 0% 50%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .SectionOne {
+        margin: 20% auto 10%;
+    }
+    .inner{
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        }
+}
+
+
+
+/**********************************************   max width: 360px   *******************************************************/
+
+
+@media screen and (max-width: 360px) {
+    .inner{
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        }
+    
+}
