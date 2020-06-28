@@ -13,21 +13,20 @@ import { DoingScience1 } from "../../../images/index";
 import homeStyles from "./home.module.css";
 
 const SectionTwo = () => (
-  <section className={homeStyles.SectionOne}>
+  <section className={homeStyles.SectionTwo}>
     <div className={homeStyles.inner}>
       <Container fluid>
         <Row>
           <div className={homeStyles.Title}>
-            <h1 className="Quentin">About Me</h1>
+            <h1 className="Quentin">Instagram</h1>
           </div>
         </Row>
-
-        <Row >
+      <section>
           <Col>
-\            <Instafeed />
+            <Instafeed />
             
           </Col>
-        </Row>
+          </section>
       </Container>
     </div>
   </section>

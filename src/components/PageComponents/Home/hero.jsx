@@ -7,7 +7,7 @@ const Hero = () => (
       <div className={homeStyles.inner}>
         <div className="NoDesktop" style={{margin: '30% 0 0 0'}}>
         <div className={homeStyles.Box}>
-          <h1 className="Quentin" style={{color: 'white', fontWeight: '700', textAlign: 'left',textShadow: '2px 2px 4px black', fontSize: '2.5rem', letterSpacing: '3px'}}>
+          <h1 className="Quentin" style={{color: 'white', textAlign: 'left',textShadow: '2px 2px 4px black', fontSize: '2.5rem', letterSpacing: '3px'}}>
             Rachel <br />
             Ellyn <br />
             Gurlin, Ph.D

@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "Quentin";
-  src: url("../fonts/Quentin.otf");
-  src: url("../fonts/Quentin.otf?#iefix") format("embedded-opentype");
+  font-family: 'Quentin';
+  src: url('../fonts/Quentin.woff2') format('woff2'),
+      url('../fonts/Quentin.woff') format('woff'),
+      url('../fonts/Quentin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -707,11 +708,11 @@ header.major:after {
 .Box {
   display: block;
   margin: auto;
-  padding: 1rem;
   width: 100%;
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding: 1rem;
 }
 
 .Box img {
@@ -719,6 +720,15 @@ header.major:after {
   margin: 0 0 2em 0;
   width: 100%;
 }
+
+.Quentin {
+  font-family: 'Quentin', sans-serif!important;
+  font-weight: 550;
+  font-size: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
 
 .NoDesktop {
   display: none;
@@ -768,6 +778,16 @@ header.major:after {
     width: 100%;
   }
 
+  .Box {
+    display: block;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+
   .NoDesktop {
     display: none;
   }
@@ -792,6 +812,16 @@ header.major:after {
     margin: 0 auto;
     width: 100%;
   }
+
+  .Box {
+    display: block;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
 
   .NoDesktop {
     display: block;
@@ -818,6 +848,16 @@ header.major:after {
     width: 100%;
   }
 
+  .Box {
+    display: block;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+
   .NoDesktop {
     display: block;
   }
@@ -837,7 +877,7 @@ header.major:after {
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
-    display: flex;
+    display: inline-block;
     -moz-align-items: center;
     -webkit-align-items: center;
     -ms-align-items: center;
@@ -845,6 +885,16 @@ header.major:after {
     margin: 0 auto;
     width: 100%;
   }
+
+  .Box {
+    display: block;
+    margin: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
 
   .NoDesktop {
     display: block;
@@ -870,6 +920,16 @@ header.major:after {
     margin: 0 auto;
     width: 100%;
   }
+
+  .Box {
+    display: block;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
 
   .NoDesktop {
     display: block;

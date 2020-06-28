@@ -453,10 +453,6 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
     display: none;
   }
 
-  .wrapper.cta > .inner > * {
-    width: 100% !important;
-    padding-left: 0 !important;
-  }
 
   .wrapper.sidebar > .inner {
     -moz-flex-direction: row;

@@ -27,6 +27,12 @@
     position: relative;
 }
 
+.SectionTwo {
+    margin: 5% auto;
+    display: block;
+    position: relative;
+}
+
 .inner {
     display: -moz-flex;
     display: -webkit-flex;
@@ -203,8 +209,15 @@
         -webkit-align-items: center;
         -ms-align-items: center;
         align-items: center;
-        margin: 0 auto;
+        margin: auto;
         width: 100%;
+        }
+
+        .Box {
+            display: inline-block;
+            margin: auto;
+            padding: 1rem;
+            width: 100%;
         }
 }
 

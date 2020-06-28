@@ -73,7 +73,7 @@ class Instafeed extends React.Component {
             onSuccess={() => {}}
             onAfterRender={() => {}}
             onFailure={() => {}}
-            style={{margin:'auto', padding: '2rem 0', maxHeight: '400px', justifyContent: 'center', display: 'flex'}}
+            style={{margin:'auto',   justifyContent: 'center', display: 'flex'}}
           />
             </div>
 
@@ -81,7 +81,7 @@ class Instafeed extends React.Component {
               <InstagramEmbed
             url="https://www.instagram.com/p/B-Z6u6XjvyU/"
             maxWidth={320}
-            maxHeight={400}
+            
             hideCaption={true}
             containerTagName="div"
             protocol=""
@@ -90,7 +90,7 @@ class Instafeed extends React.Component {
             onSuccess={() => {}}
             onAfterRender={() => {}}
             onFailure={() => {}}
-            style={{margin:'auto', padding: '2rem 0', maxHeight: '400px', justifyContent: 'center', display: 'flex'}}          />
+            style={{margin:'auto',   justifyContent: 'center', display: 'flex'}}          />
 
             </div>
 
@@ -98,7 +98,7 @@ class Instafeed extends React.Component {
               <InstagramEmbed
             url="https://www.instagram.com/p/B-PfBCeD0Uo/"
             maxWidth={320}
-            maxHeight={400}
+            
             hideCaption={true}
             containerTagName="div"
             protocol=""
@@ -107,7 +107,7 @@ class Instafeed extends React.Component {
             onSuccess={() => {}}
             onAfterRender={() => {}}
             onFailure={() => {}}
-            style={{margin:'auto', padding: '2rem 0', maxHeight: '400px', justifyContent: 'center', display: 'flex'}}          />
+            style={{margin:'auto',   justifyContent: 'center', display: 'flex'}}          />
 
             </div>
 
@@ -115,7 +115,7 @@ class Instafeed extends React.Component {
               <InstagramEmbed
             url="https://www.instagram.com/p/B9jphtuJdD8/"
             maxWidth={320}
-            maxHeight={400}
+            
             hideCaption={true}
             containerTagName="div"
             protocol=""
@@ -124,7 +124,7 @@ class Instafeed extends React.Component {
             onSuccess={() => {}}
             onAfterRender={() => {}}
             onFailure={() => {}}
-            style={{margin:'auto', padding: '2rem 0', maxHeight: '400px', justifyContent: 'center', display: 'flex'}}          />
+            style={{margin:'auto',   justifyContent: 'center', display: 'flex'}}          />
 
             </div>
 
@@ -132,7 +132,7 @@ class Instafeed extends React.Component {
               <InstagramEmbed
             url="https://www.instagram.com/p/B9FxGLoJ06w/"
             maxWidth={320}
-            maxHeight={400}
+            
             hideCaption={true}
             containerTagName="div"
             protocol=""
@@ -141,7 +141,7 @@ class Instafeed extends React.Component {
             onSuccess={() => {}}
             onAfterRender={() => {}}
             onFailure={() => {}}
-            style={{margin:'auto', padding: '2rem 0', maxHeight: '400px', justifyContent: 'center', display: 'flex'}}
+            style={{margin:'auto',   justifyContent: 'center', display: 'flex'}}
           />
 
             </div>
@@ -150,7 +150,7 @@ class Instafeed extends React.Component {
               <InstagramEmbed
             url="https://www.instagram.com/p/B8HAdYXpmQ-/"
             maxWidth={320}
-            maxHeight={400}
+            
             hideCaption={true}
             containerTagName="div"
             protocol=""
@@ -159,7 +159,7 @@ class Instafeed extends React.Component {
             onSuccess={() => {}}
             onAfterRender={() => {}}
             onFailure={() => {}}
-            style={{margin:'auto', padding: '2rem 0', maxHeight: '400px', justifyContent: 'center', display: 'flex'}}          />
+            style={{margin:'auto',   justifyContent: 'center', display: 'flex'}}          />
 
             </div>
             </Slider>
