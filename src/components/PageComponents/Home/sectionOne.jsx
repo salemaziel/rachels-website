@@ -26,7 +26,8 @@ const SectionOne = () => (
                 <div className="image fit">
               <img src={DoingScience1} alt="rachel homepage" />
               </div>
-            </div>
+</div>
+{/*<Picture />*/}
           </Col>
           <Col sm={6}>
           <div className={homeStyles.Box}>

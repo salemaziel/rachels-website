@@ -1,8 +1,4 @@
-#cf3 {
-  position: relative;
 
-  margin: 0 auto;
-}
 
 #HomePic {
   position:relative;
@@ -20,58 +16,125 @@
   transition: opacity 1s ease-in-out;
 }
 
-#HomePic img.top:hover {
-  opacity: 0;
+#HomePic img {
+  animation-name: HomePicFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 11s;
+  animation-direction: alternate;
 }
 
+@keyframes HomePicFadeInOut {
+  0% {
+    opacity:1;
+  }
 
-#cf3 img {
-  position: absolute;
-  height: auto;
-  width: fit-content;
-  left: 0;
-  height: 281px;
-  width: 450px;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  30.3% {
+    opacity:1;
+  }
+  33% {
+    opacity:0;
+  }
+  97% {
+    opacity: 0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-#cf3 img.transparent {
-  opacity: 0;
+#HomePic img:nth-of-type(1) {
+
+    animation-delay: 22s;
 }
-#cf_onclick {
-  cursor: pointer;
+#HomePic img:nth-of-type(2) {
+
+  animation-delay: 11s;
+}
+#HomePic img:nth-of-type(3) {
+
+  animation-delay: 0s;
+}
+/*
+#HomePic img:nth-of-type(4) {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0;
+}
+*/
+
+
+
+
+/*  Example from article: ___________________________________________________
+For "n" images You must define:
+a=presentation time for one image
+b=duration for cross fading
+Total animation-duration is of course t=(a+b)*n
+
+animation-delay = t/n or = a+b
+
+Percentage for keyframes:
+
+0%
+a/t*100%
+(a+b)/t*100% = 1/n*100%
+100%-(b/t*100%)
+100%
+
+a=10
+b=1
+n=3
+t=(10+1)*3 => t=33 : total animation duration is 33s
+
+anmiation-delay:
+t/n = a+b
+33/3 => 11s
+
+keyframes:
+0%
+
+10/33 * 100% = 30.3%
+
+(10+1)/33*100% = 1/3*100% = 33%
+
+100%-(1/33*100%) => 100%-3% = 97%
+
+100%
+
+
+
+@keyframes cf4FadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-@keyframes cf3FadeInOut {
-    0% {
-      opacity:1;
-    }
-    17% {
-      opacity:1;
-    }
-    25% {
-      opacity:0;
-    }
-    92% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  #cf3 img:nth-of-type(1) {
-    animation-delay: 6s;
-  }
-  #cf3 img:nth-of-type(2) {
-    animation-delay: 4s;
-  }
-  #cf3 img:nth-of-type(3) {
-    animation-delay: 2s;
-  }
-  #cf3 img:nth-of-type(4) {
-    animation-delay: 0;
-  }
+#cf4a img:nth-of-type(1) {
+  animation-delay: 6s;
+}
+#cf4a img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+#cf4a img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+#cf4a img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+*/
+

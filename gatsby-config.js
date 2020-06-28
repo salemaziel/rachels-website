@@ -20,18 +20,19 @@ module.exports = {
         path: `${__dirname}/src/fonts/`
       }
     },
+    `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `rachel-gurlin-profile`,
-        short_name: `rachel-gurlin`,
+        name: `Rachel Gurlin Website`,
+        short_name: `Rachel Gurlin`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/favicon_io/icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -112,7 +112,7 @@ class NavMobile extends React.Component {
             marginLeft: "1.5rem",
           }}
           navStyle={{
-            width: "70%",
+            width: "60%",
             marginRight: "0",
             background: "rgba(0,0,0,0.8)",
             backgroundColor: "rgba(0,0,0,0.8)",

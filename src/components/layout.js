@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from "./header";
+import Footer from './footer'
 import './layout.css'
 import '../css/styles.css'
 //import "./layout.scss";
@@ -32,11 +33,7 @@ const Layout = ({ children }) => {
       <main>
         {children}
       </main>
-      <footer className="footer mt-auto py-3 bg-dark text-white text-center">
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+      <Footer />
     </>
   );
 };

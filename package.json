@@ -1,10 +1,12 @@
 {
-  "name": "gatsby-starter-basic-bootstrap",
+  "name": "rachel-gurlin-website",
   "private": false,
-  "description": "A very basic gatsby starter with react-bootstrap",
+  "description": "Website for Rachel",
   "version": "0.1.0",
-  "author": "mike wakerly <opensource@hoho.com>",
+  "author": "Salem Aziel <contact@salemaziel.com>",
   "dependencies": {
+    "@microlink/react": "^5.4.1",
+    "babel-plugin-styled-components": "^1.10.7",
     "bootstrap": "^4.4.1",
     "gatsby": "^2.20.12",
     "gatsby-image": "^2.3.1",
@@ -12,6 +14,7 @@
     "gatsby-plugin-offline": "^3.1.2",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-styled-components": "^3.3.6",
     "gatsby-source-filesystem": "^2.3.10",
     "gatsby-transformer-sharp": "^2.4.3",
     "image-crossfade-react": "^1.0.0",
@@ -20,7 +23,14 @@
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "react-simple-sidenav": "^2.0.0"
+    "react-icons": "^3.10.0",
+    "react-image-gallery": "^1.0.7",
+    "react-instagram-embed": "^1.5.0",
+    "react-simple-sidenav": "^2.0.0",
+    "react-slick": "^0.26.1",
+    "simple-react-lightbox": "^3.2.3-2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
@@ -44,9 +54,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mik3y/gatsby-starter-basic-bootstrap"
-  },
-  "bugs": {
-    "url": "https://github.com/mik3y/gatsby-starter-basic-bootstrap/issues"
+    "url": "https://github.com/salemaziel/rachels-website"
   }
 }

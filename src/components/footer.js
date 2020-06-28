@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { FaEnvelope, FaInstagram, FaFacebook, FaTwitter, FaResearchgate, FaLinkedin } from 'react-icons/fa'
 
 
 import footerStyles from "./footer.module.css";
@@ -7,56 +8,43 @@ import footerStyles from "./footer.module.css";
 const Footer = () => (
 
       <footer id="footer" className={footerStyles.Footer}>
-        <div className="content">
-          <div className="inner">
-            <section className="about">
-              <h3>Integer vitae sed feugiat</h3>
+        <div className={footerStyles.content}>
+          <div className={footerStyles.inner}>
+            <section className={footerStyles.about}>
+              <h3>Button to specific link</h3>
               <p>
-                Lorem ipsum dolor sit amet interdum mollis sapien. Sed amet ac
-                lorem ipsum interdum tempus sagittis lorem tempus.
+               A link to something specific that someone may be looking for on your website.
               </p>
-              <ul className="actions">
+              <ul className={footerStyles.actions}>
                 <li>
-                  <a href="#" className="button">
-                    Learn More
+                  <a href="#" className={footerStyles.button}>
+                    Link to thing
                   </a>
                 </li>
               </ul>
             </section>
-            <ul className="icons bulleted">
-              <li className="icon solid fa-map-marker-alt">
-                <h3>Address</h3>
-                <p>
-                  LEDPac
-                  <br />
-                  1234 Fictional Road
-                  <br />
-                  Escondido, CA 92025
-                </p>
+            <div className={footerStyles.contact}>
+            <ul className={footerStyles.iconBulleted}>
+              <h3>Get In Touch</h3>
+              <li>
+                <FaEnvelope />  <a href="#"> email@email.com</a>
+              </li>
+              <li className={footerStyles.Social}>
+                  <a href="https://facebook.com"><FaFacebook /></a> 
+                  <a href="https://instagram.com"><FaInstagram /></a>
+                  <a href="https://twitter.com"><FaTwitter /></a>
+                  <a href="https://researchgate.com"><FaResearchgate /></a>
+                  <a href="https://linkedin.com"><FaLinkedin /></a>
               </li>
             </ul>
-            <ul className="icons bulleted">
-              <li className="icon solid fa-phone">
-                <h3>Phone</h3>
-                <p>(000) 000-0000</p>
-              </li>
-              <li className="icon solid fa-envelope">
-                <h3>Email</h3>
-                <p>
-                  <a href="#">info@ledpac.com</a>
-                </p>
-              </li>
-            </ul>
+            </div>
           </div>
         </div>
         <p className={footerStyles.copyright}>
-          © LEDPac. All rights reserved.
-          <br />
-          <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> |{" "}
-          <Link to="/contact">Contact</Link>
-        </p>
+          Created by Salem © All Rights Reserved,<br /> but Rights are a False Concept, Unless You Defend Them <span style={{color: 'black!important', fill: 'black!important', fontSize: '1.2rem'}}> &#9398; 	&#9773; </span>
+          </p>
 
       </footer>
     );
-
+;
 export default Footer;

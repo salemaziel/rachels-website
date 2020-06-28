@@ -61,9 +61,10 @@
       font-weight: 600;
   }
 
-  .Title header h1 {
+  .Title h1 {
       text-align: left;
-      font-size: 2.5em;
+      font-size: 1.5em;
+      margin-bottom: -1rem;
   }
 
   .Quentin {
