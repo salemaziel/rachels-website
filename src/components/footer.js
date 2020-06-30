@@ -26,9 +26,6 @@ const Footer = () => (
             <div className={footerStyles.contact}>
             <ul className={footerStyles.iconBulleted}>
               <h3>Get In Touch</h3>
-              <li>
-                <FaEnvelope />  <a href="#"> email@email.com</a>
-              </li>
               <li className={footerStyles.Social}>
                   <a href="https://facebook.com"><FaFacebook /></a> 
                   <a href="https://instagram.com"><FaInstagram /></a>
@@ -41,7 +38,7 @@ const Footer = () => (
           </div>
         </div>
         <p className={footerStyles.copyright}>
-          Created by Salem © All Rights Reserved,<br /> but Rights are a False Concept, Unless You Defend Them <span style={{color: 'black!important', fill: 'black!important', fontSize: '1.2rem'}}> &#9398; 	&#9773; </span>
+          Created by Salem © All Rights Reserved,<br /> but Rights are a False Concept, Unless You Defend Them <span style={{color: 'black', fill: 'black', fontSize: '1.5rem', textShadow: '1px 1px 1px lightgrey'}}> &#9398; </span><span style={{color: 'red', fill: 'red', fontSize: '1.5rem', textShadow: '1px 1px 1px gray'}}>	&#9773; </span>
           </p>
 
       </footer>

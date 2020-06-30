@@ -5,9 +5,11 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Card from 'react-bootstrap/Card'
 
+import Microlink from "@microlink/react"
+
 import InstagramEmbed from 'react-instagram-embed';
 
-class Instafeed extends React.Component {
+class Instafeed2 extends React.Component {
     render() {
       const settings = {
         dots: false,
@@ -61,7 +63,56 @@ class Instafeed extends React.Component {
       return (
         <>
           <Slider {...settings}>
-            <div className="Box">
+              <div className="Box">
+                <Microlink 
+                url="https://www.instagram.com/p/B_Sm_dyDEQ9/"
+                size="large" 
+                media='image'
+                />
+</div>
+<div className="Box">
+                <Microlink 
+                url="https://www.instagram.com/p/B-Z6u6XjvyU/"
+                size="large" 
+                media='image'
+                />
+</div>
+<div className="Box">
+                <Microlink 
+                url="https://www.instagram.com/p/B-PfBCeD0Uo/"
+                size="large" 
+                media='image'
+                />
+                
+</div>
+<div className="Box">
+                <Microlink 
+                url="https://www.instagram.com/p/B9jphtuJdD8/"
+                size="large" 
+                media='image'
+                />
+                
+</div>
+<div className="Box">
+                <Microlink 
+                url="https://www.instagram.com/p/B9FxGLoJ06w/"
+                size="large" 
+                media='image'
+                />
+                
+</div>
+<div className="Box">
+                <Microlink 
+                url="https://www.instagram.com/p/B8HAdYXpmQ-/"
+                size="large" 
+                media='image'
+                />
+                
+</div>
+
+
+
+            {/*<div className="Box">
               <InstagramEmbed
             url="https://www.instagram.com/p/B_Sm_dyDEQ9/"
             maxWidth={300}
@@ -161,11 +212,11 @@ class Instafeed extends React.Component {
             onFailure={() => {}}
             style={{margin:'auto',   justifyContent: 'center',  display: 'inline-block', height: '540px', width: '300px'}}          />
 
-            </div>
+              </div>*/}
             </Slider>
             </>
       )
     }
 }
 
-      export default Instafeed
+      export default Instafeed2

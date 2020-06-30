@@ -23,7 +23,6 @@ const Science = () => (
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               
             </Card.Text>
-            <Card.Text>Made by Salem</Card.Text>
           </Card.ImgOverlay>
         </Card>
       </Container>

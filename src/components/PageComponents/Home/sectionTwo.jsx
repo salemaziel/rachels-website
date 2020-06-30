@@ -6,7 +6,7 @@ import Media from "react-bootstrap/Media";
 
 import Picture from "./picture";
 
-import Instafeed from './instafeed'
+import Instafeed2 from './instafeed2'
 
 import { DoingScience1 } from "../../../images/index";
 
@@ -14,7 +14,7 @@ import homeStyles from "./home.module.css";
 
 const SectionTwo = () => (
   <section className={homeStyles.SectionTwo}>
-    <div className={homeStyles.inner}>
+    <div className="inner" /*className={homeStyles.inner}*/>
       <Container fluid>
         <Row>
           <div className={homeStyles.Title}>
@@ -23,7 +23,7 @@ const SectionTwo = () => (
         </Row>
       <section>
           <Col>
-            <Instafeed />
+            <Instafeed2 />
             
           </Col>
           </section>

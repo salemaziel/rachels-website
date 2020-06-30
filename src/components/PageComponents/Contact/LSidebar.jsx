@@ -23,10 +23,10 @@ const LSidebar = () => (
                   <p className="followus">
                     <FaEnvelope />
                     <a href="mailto:email@email.vom">
-                      email@email.com
+                      eachel@gurlin.com
                     </a>
                   </p>
-                <h4 className="followus">Follow Us</h4>
+                <h4 className="followus">Follow Me</h4>
                 <div className="followus">
                   <a href="https://twitter.com">
                     <FaTwitter />

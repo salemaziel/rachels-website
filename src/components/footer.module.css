@@ -1,10 +1,10 @@
 .Footer {
-/*background-color: rgba(21, 27, 33, 0.6);*/
+background-color: rgba(21, 27, 33, 0.6);
   color: #ffffff;
-  background-image: url('../images/field-of-flowers.jpg');
+  /*background-image: url('../images/field-of-flowers.jpg');*/
   background-position:  center bottom;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat, no-repeat;
 }
 

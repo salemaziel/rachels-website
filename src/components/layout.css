@@ -223,6 +223,7 @@ body {
   color: #5e6875;
 }
 
+
 body,
 input,
 select,
@@ -723,7 +724,7 @@ header.major:after {
 
 .Quentin {
   font-family: 'Quentin', sans-serif!important;
-  font-weight: 550;
+  font-weight: 550!important;
   font-size: normal;
   letter-spacing: normal;
   line-height: normal;

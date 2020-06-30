@@ -3,20 +3,25 @@ import { Link } from "gatsby";
 import homeStyles from "./home.module.css";
 
 const Hero = () => (
-  <section id="banner" className={homeStyles.Banner}>
+  <>
+  <section className={homeStyles.Banner} >
+ 
       <div className={homeStyles.inner}>
-        <div className="NoDesktop" style={{margin: '30% 0 0 0'}}>
+        <div className="NoMobile" style={{height: '30em'}} />
+        <div className="NoDesktop" id="namebox" /*style={{margin: '30% 0 0 0',}}*/>
         <div className={homeStyles.Box}>
-          <h1 className="Quentin" style={{color: 'white', textAlign: 'left',textShadow: '2px 2px 4px black', fontSize: '2.5rem', letterSpacing: '3px'}}>
+          <h1 className="Quentin" id="name" /*style={{color: 'white', textAlign: 'left',textShadow: '2px 2px 4px black', fontSize: '3rem', letterSpacing: '2px'}}*/>
             Rachel <br />
             Ellyn <br />
-            Gurlin, Ph.D
+            Gurlin, <br />
+            Ph.D
 
           </h1>
         </div>
         </div>
-    </div>
+        </div>
   </section>
+  </>
 );
 
 export default Hero;
