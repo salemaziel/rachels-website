@@ -12,6 +12,8 @@ import { DoingScience1 } from "../../../images/index";
 
 import homeStyles from "./home.module.css";
 
+import Fade from 'react-reveal/Fade'
+
 const SectionTwo = () => (
   <section className={homeStyles.SectionTwo}>
     <div className="inner" /*className={homeStyles.inner}*/>
@@ -23,7 +25,9 @@ const SectionTwo = () => (
         </Row>
       <section>
           <Col>
+          <Fade cascade>
             <Instafeed2 />
+            </Fade>
             
           </Col>
           </section>

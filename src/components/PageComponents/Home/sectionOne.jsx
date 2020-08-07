@@ -10,13 +10,19 @@ import { DoingScience1 } from "../../../images/index";
 
 import homeStyles from "./home.module.css";
 
+import Fade from 'react-reveal/Fade'
+
 const SectionOne = () => (
   <section className={homeStyles.SectionOne}>
     <div className="inner" /*className={homeStyles.inner}*/>
       <Container fluid>
         <Row>
           <div className={homeStyles.Title}>
-            <h1 className="Quentin">About Me</h1>
+            <h1 className="Quentin">
+            <Fade cascade>
+About Me
+            </Fade>
+            </h1>
           </div>
         </Row>
 
@@ -24,13 +30,16 @@ const SectionOne = () => (
           <Col sm={6}>
             <div className={homeStyles.Box}>
                 <div className="image fit">
+                  <Fade cascade>
               <img src={DoingScience1} alt="rachel homepage" />
+              </Fade>
               </div>
 </div>
 {/*<Picture />*/}
           </Col>
           <Col sm={6}>
           <div className={homeStyles.Box}>
+            <Fade cascade>
               <article>
                   <h2>
                       Hi, Im Rachel :)
@@ -59,6 +68,7 @@ const SectionOne = () => (
                   </ul>
                   
               </article>
+              </Fade>
               
               </div>
 

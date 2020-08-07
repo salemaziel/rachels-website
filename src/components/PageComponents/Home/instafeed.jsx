@@ -16,7 +16,7 @@ class Instafeed extends React.Component {
         infinite: true,
         centerPadding: "0px",
         slidesToShow: 3,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: false,
         speed: 4000,
         autoplaySpeed: 4000,

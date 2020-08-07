@@ -1,118 +1,112 @@
-import React from 'react'
+import React from "react";
 
-import Slider from "react-slick"
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import Card from 'react-bootstrap/Card'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Card from "react-bootstrap/Card";
 
-import Microlink from "@microlink/react"
+import Microlink from "@microlink/react";
 
-import InstagramEmbed from 'react-instagram-embed';
+import InstagramEmbed from "react-instagram-embed";
 
 class Instafeed2 extends React.Component {
-    render() {
-      const settings = {
-        dots: false,
-        className: "center",
-        centerMode: true,
-        infinite: true,
-        centerPadding: "0px",
-        slidesToShow: 3,
-        slidesToScroll: 2,
-        autoplay: false,
-        speed: 4000,
-        autoplaySpeed: 4000,
-        cssEase: "linear",
-        responsive: [
-          {
-            breakpoint: 1280,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              infinite: true,
-              dots: false,
-            },
+  render() {
+    const settings = {
+      dots: false,
+      className: "center",
+      centerMode: true,
+      infinite: true,
+      centerPadding: "0px",
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: false,
+      speed: 4000,
+      autoplaySpeed: 4000,
+      cssEase: "linear",
+      responsive: [
+        {
+          breakpoint: 1280,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
           },
-          {
-            breakpoint: 980,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: false,
-            },
+        },
+        {
+          breakpoint: 980,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
           },
-          {
-            breakpoint: 767,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              initialSlide: 1,
-            },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1,
           },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
           },
-        ],
-      }
-  
-      return (
-        <>
-          <Slider {...settings}>
-              <div className="Box">
-                <Microlink 
-                url="https://www.instagram.com/p/B_Sm_dyDEQ9/"
-                size="large" 
-                media='image'
-                />
-</div>
-<div className="Box">
-                <Microlink 
-                url="https://www.instagram.com/p/B-Z6u6XjvyU/"
-                size="large" 
-                media='image'
-                />
-</div>
-<div className="Box">
-                <Microlink 
-                url="https://www.instagram.com/p/B-PfBCeD0Uo/"
-                size="large" 
-                media='image'
-                />
-                
-</div>
-<div className="Box">
-                <Microlink 
-                url="https://www.instagram.com/p/B9jphtuJdD8/"
-                size="large" 
-                media='image'
-                />
-                
-</div>
-<div className="Box">
-                <Microlink 
-                url="https://www.instagram.com/p/B9FxGLoJ06w/"
-                size="large" 
-                media='image'
-                />
-                
-</div>
-<div className="Box">
-                <Microlink 
-                url="https://www.instagram.com/p/B8HAdYXpmQ-/"
-                size="large" 
-                media='image'
-                />
-                
-</div>
+        },
+      ],
+    };
 
+    return (
+      <>
+        <Slider {...settings}>
+          <div className="Box">
+            <Microlink
+              url="https://www.instagram.com/p/B_Sm_dyDEQ9/"
+              size="large"
+              media="image"
+            />
+          </div>
+          <div className="Box">
+            <Microlink
+              url="https://www.instagram.com/p/B-Z6u6XjvyU/"
+              size="large"
+              media="image"
+            />
+          </div>
+          <div className="Box">
+            <Microlink
+              url="https://www.instagram.com/p/B-PfBCeD0Uo/"
+              size="large"
+              media="image"
+            />
+          </div>
+          <div className="Box">
+            <Microlink
+              url="https://www.instagram.com/p/B9jphtuJdD8/"
+              size="large"
+              media="image"
+            />
+          </div>
+          <div className="Box">
+            <Microlink
+              url="https://www.instagram.com/p/B9FxGLoJ06w/"
+              size="large"
+              media="image"
+            />
+          </div>
+          <div className="Box">
+            <Microlink
+              url="https://www.instagram.com/p/B8HAdYXpmQ-/"
+              size="large"
+              media="image"
+            />
+          </div>
 
-
-            {/*<div className="Box">
+          {/*<div className="Box">
               <InstagramEmbed
             url="https://www.instagram.com/p/B_Sm_dyDEQ9/"
             maxWidth={300}
@@ -213,10 +207,10 @@ class Instafeed2 extends React.Component {
             style={{margin:'auto',   justifyContent: 'center',  display: 'inline-block', height: '540px', width: '300px'}}          />
 
               </div>*/}
-            </Slider>
-            </>
-      )
-    }
+        </Slider>
+      </>
+    );
+  }
 }
 
-      export default Instafeed2
+export default Instafeed2;

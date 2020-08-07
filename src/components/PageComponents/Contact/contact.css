@@ -119,6 +119,10 @@ header.major:after {
   color: pink;
 }
 
+h4.followus {
+  font-family: 'Quentin', sans-serif;
+}
+
 .followus a {
   padding: 2rem;
   color: #5e6875;
