@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import homeStyles from "./home.module.css";
+import Fade from 'react-reveal/Fade'
 
 const Hero = () => (
   <>
@@ -10,6 +11,7 @@ const Hero = () => (
         <div className="NoMobile" style={{height: '30em'}} />
         <div className="NoDesktop" id="namebox" /*style={{margin: '30% 0 0 0',}}*/>
         <div className={homeStyles.Box}>
+          <Fade left ssrReveal>
           <h1 className="Quentin" id="nameHero" /*style={{color: 'white', textAlign: 'left',textShadow: '2px 2px 4px black', fontSize: '3rem', letterSpacing: '2px'}}*/>
             Rachel <br />
             Ellyn <br />
@@ -17,6 +19,7 @@ const Hero = () => (
             Ph.D
 
           </h1>
+          </Fade>
         </div>
         </div>
         </div>
