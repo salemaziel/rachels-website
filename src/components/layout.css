@@ -729,7 +729,21 @@ header.major:after {
   letter-spacing: normal;
   line-height: normal;
 }
-
+/*
+body #bannersection {
+  min-width: 100%;
+  width: 100vh;
+  min-height: 100vh;
+  height: -webkit-fill-available;
+  height: stretch;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%), url('../images/colorful-lake-resized.jpeg');
+  /*background-position: 90% center;* /
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+}
+*/
 
 .NoDesktop {
   display: none;

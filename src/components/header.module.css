@@ -93,6 +93,7 @@
 .Header nav ul li {
   display: inline-block;
   margin-left: 1.5em;
+  background: inherit!important;
 }
 
 .Header nav ul li a {
@@ -268,6 +269,7 @@
       display: block;
       margin-left: 0;
   }
+
 }
 
 
